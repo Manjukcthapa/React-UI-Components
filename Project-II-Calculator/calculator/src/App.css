@@ -7,5 +7,41 @@
     width:200px;
     height :100px;
     width:400px;
-    margin-left: 50px;   
+     
+}
+
+.row{
+    border:1px solid black;
+    width:400px;
+    margin-left: 50px;
+
+
+}
+
+.first-row{
+    display: flex;
+    flex-direction:row;
+    margin-left:0px;
+    
+}
+
+.second-row{
+    display: flex;
+    flex-direction:row;
+    
+}
+
+.third-row{
+    display: flex;
+    flex-direction:row; 
+}
+
+.fourth-row{
+    display: flex;
+    flex-direction:row; 
+}
+
+.fifth-row{
+    display: flex;
+    flex-direction:row; 
 }
