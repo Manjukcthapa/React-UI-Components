@@ -19,9 +19,9 @@ const App = () => {
       </div>
 
         <div class = "second-row">
-        <NumberButton text="1" buttonStyle = "numbers"  />
-        <NumberButton text="2" buttonStyle = "numbers" />
-        <NumberButton text="3" buttonStyle = "numbers" />
+        <NumberButton text="7" buttonStyle = "numbers"  />
+        <NumberButton text="8" buttonStyle = "numbers" />
+        <NumberButton text="9" buttonStyle = "numbers" />
         <NumberButton text="*"buttonStyle = "colorbutton" />
         </div>
 
@@ -33,9 +33,9 @@ const App = () => {
         </div>
 
         <div className = "second-row">
-        <NumberButton text="7" buttonStyle = "numbers" />
-        <NumberButton text="8" buttonStyle = "numbers" />
-        <NumberButton text="9"  buttonStyle = "numbers" />
+        <NumberButton text="1" buttonStyle = "numbers" />
+        <NumberButton text="2" buttonStyle = "numbers" />
+        <NumberButton text="3"  buttonStyle = "numbers" />
         <NumberButton text="-" buttonStyle = "colorbutton" />
         </div>
 
