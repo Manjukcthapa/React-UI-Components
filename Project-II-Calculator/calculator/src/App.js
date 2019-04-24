@@ -22,24 +22,24 @@ const App = () => {
         <NumberButton text="1" buttonStyle = "numbers"  />
         <NumberButton text="2" buttonStyle = "numbers" />
         <NumberButton text="3" buttonStyle = "numbers" />
-        <NumberButton text="*"buttonStyle = "colorbutton"  />
+        <NumberButton text="*"buttonStyle = "colorbutton" />
         </div>
 
-        <div class = "third-row">
+        <div class = "second-row">
         <NumberButton text="4" buttonStyle = "numbers" />
         <NumberButton text="5"  buttonStyle = "numbers" />
         <NumberButton text="6"  buttonStyle = "numbers" />
         <NumberButton text="+" buttonStyle = "colorbutton" />
         </div>
 
-        <div className = "fourth-row">
+        <div className = "second-row">
         <NumberButton text="7" buttonStyle = "numbers" />
         <NumberButton text="8" buttonStyle = "numbers" />
         <NumberButton text="9"  buttonStyle = "numbers" />
         <NumberButton text="-" buttonStyle = "colorbutton" />
         </div>
 
-        <div className = "fifth-row">
+        <div className = "first-row">
         <ActionButton text = "0" buttonStyle = "buttonsize"/>
         <NumberButton text="="  buttonStyle = "colorbutton" />
         </div>

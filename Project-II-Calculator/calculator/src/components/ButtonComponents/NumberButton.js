@@ -4,7 +4,7 @@ import './Button.css';
   
     return(
       <div className = "Button">
-          <button className={props.buttonStyle} button>{props.text}</button>
+          <button className={props.buttonStyle}>{props.text}</button>
       </div>
     )
  }
