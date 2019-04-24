@@ -1,35 +1,27 @@
-.display{
+.display {
     font-size: 85px;
     border: 1px solid white;
-    background-color:black;
-    color:white; 
-    text-align:end;
-    width:200px;
-    height :100px;
-    width:400px;
-     
+    background-color: black;
+    color: white;
+    text-align: end;
+    width: 200px;
+    height: 100px;
+    width: 400px;
 }
 
-.row{
-    border:1px solid black;
-    width:400px;
+.row {
+    border: 1px solid black;
+    width: 400px;
     margin-left: 50px;
-
-
 }
 
-.first-row{
+.first-row {
     display: flex;
-    flex-direction:row;
-    margin-left:0px;
-    
+    flex-direction: row;
+    margin-left: 0px;
 }
 
-.second-row{
+.second-row {
     display: flex;
-    flex-direction:row;
-    
+    flex-direction: row;
 }
-
-
-

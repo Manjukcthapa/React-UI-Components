@@ -11,21 +11,21 @@ const App = () => {
         <CalculatorDisplay text={"0"} />
       </div>
 
-      <div class ="first-row">
+      <div className="first-row">
       
-        <ActionButton text = "clear" buttonStyle = "buttonsize" />
+        <ActionButton text="clear" buttonStyle= "buttonsize" />
         <NumberButton text="/" buttonStyle = "colorbutton" />
-     
+    
       </div>
 
-        <div class = "second-row">
+        <div className="second-row">
         <NumberButton text="7" buttonStyle = "numbers"  />
         <NumberButton text="8" buttonStyle = "numbers" />
         <NumberButton text="9" buttonStyle = "numbers" />
-        <NumberButton text="*"buttonStyle = "colorbutton" />
+        <NumberButton text="*" buttonStyle = "colorbutton" />
         </div>
 
-        <div class = "second-row">
+        <div className = "second-row">
         <NumberButton text="4" buttonStyle = "numbers" />
         <NumberButton text="5"  buttonStyle = "numbers" />
         <NumberButton text="6"  buttonStyle = "numbers" />
@@ -40,7 +40,7 @@ const App = () => {
         </div>
 
         <div className = "first-row">
-        <ActionButton text = "0" buttonStyle = "buttonsize"/>
+        <ActionButton text= "0" buttonStyle = "buttonsize"/>
         <NumberButton text="="  buttonStyle = "colorbutton" />
         </div>
       </div>
